@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6{
+	color:white;
+}
+
+.game_container{
+	margin-top:3em;
+	max-width: 600px;
+}
+
+.purple_bg{
+	background-color: rgb(9, 9, 72);
+}
+
+.simon_btn{
+	width: 13em;
+	height: 13em;
+}
+@media screen and (max-width:900px){
+	.simon_btn{
+		width: 9em;
+		height: 9em;
+	}
+}
+
+.yellow_col{
+	background-color: yellow;
+}
+
+.red_col{
+	background-color: rgb(225, 4, 4);
+}
+
+.green_col{
+	background-color: rgb(7, 191, 34);
+}
+
+.pink_col{
+	background-color: rgb(255, 0, 174);
+}
+
+.selected {
+    transform: translateY(-15px);
+    box-shadow: 15px 15px 20px rgba(255, 255, 255, 0.5);
+}
